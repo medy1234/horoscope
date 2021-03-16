@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Horoscope Website</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+				<!-- A horoscope app where the user can enter their birthday and get their horoscope. There should be minimum 12 unique horoscopes. -->
+<h1>Do you LOVE Astrology? </h1>
+<h2>Fill out the information below to get your horoscope today!</h2>
+				<form class="" action="index.html" method="post">
+					<label class ="bMonth"for="Birthday Month">Birthday Month</label>
+			    <input id ="birthMonth"class ="bMonth"type="text" placeholder="Birthday Month" value="">
+				</form>
+
+					<form >
+						<label class="bDate" for="Birthday Date">Birthday Date</label>
+					  <input id = "birthDate" class="bDate" type="number" placeholder="Birthday Date" value="">
+						<button class ="submit" type="button" name="button">Submit</button>
+					</form>
+
+
+				<h3>Your Horoscope will appear below:</h3>
+				<p class="horoscopeResults"></p>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

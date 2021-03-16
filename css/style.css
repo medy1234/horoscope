@@ -1,0 +1,58 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+   body {
+     color: grey;
+    background: purple;
+  /* background-image: url(https://st.depositphotos.com/1278966/3152/i/600/depositphotos_31520311-stock-photo-magic-signs-astrology-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  }
+  h1, h2{
+    text-align: center;
+  
+  }
+  form {
+    border: 5px solid black;
+    height: 150px ;
+    width: 40%;
+    margin-left: 35%;
+    font-size: 30px;
+  }
+  h3, h2{
+    color: yellow;
+  
+  }
+  button{
+    margin-top: 10px;
+    margin-left: 40%
+  }
+  .bDate , .bMonth{
+    margin-top: 10px;
+  }
+  
+  p{
+    width: 70%;
+    background-color: pink;
+    text-align: center;
+    margin-left: 18%;
+    font-size: 20px;
+  
+  }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
